@@ -1,0 +1,114 @@
+#footer-wrap
+  #ft
+    .ft-item-1
+      .t-top
+        .t-t-l
+          p.ft-t.t-l-t 格言🧬
+          .bg-ad
+            div
+              | 没关系的，大家都会做错选择。会莫名其妙掉眼泪，走在路上突然崩溃，但这并不影响我们去看看晚霞，再次爱上这个世界。不必在意世俗的眼光，去追寻属于你的光✨
+            .btn-xz-box
+              a.btn-xz(href='/collect/') 点击进入我的世界
+        .t-t-r
+          p.ft-t.t-l-t 猜你想看💡
+          ul.ft-links
+            li
+              a(href='/posts/78ceeb56.html') 是上坡路
+              a(href='/comments/') 留点什么
+            li
+              a(href='/categories/') 文章分类
+              a(href='/tags/') 文章标签
+            li
+              a(href='/bangumis/') 我的追番
+              a(href='/box/animation/') 我的动画
+            li
+              a(href='/collect/') 我的宝藏
+              a(href='https://music.linjiangyu.com/') 我的音乐
+            li
+              a(href='/social/link/') 我的朋友
+              a(href='/personal/bb/') 我的哔哔
+            li
+              a(href='/site/time/') 建设进程
+              a(href='/personal/about/') 关于作者
+    .ft-item-2
+      p.ft-t 推荐友链⌛
+      .ft-img-group
+        .img-group-item
+          a(href='https://linjiangyu.com/' title='你会发光叭')
+            img(src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fa.jpg' alt='')
+        .img-group-item
+          a(href='https://dddachui.top/' title='大锤')
+            img(src='https://cdn1.tianli0.top/gh/dddachui/picture_bed/img/avatar.jpg' alt='')
+        .img-group-item
+          a(href='https://tzy1997.com/' title='Ethan.Tzy')
+            img(src='https://bu.dusays.com/2022/05/02/626f92e193879.jpg' alt='')
+        .img-group-item
+          a(href='https://www.fomal.cc/' title='Fomalhaut🥝')
+            img(src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/60e5d4e39da7c077.webp' alt='')
+        .img-group-item
+          a(href='https://naokuoteng.cn/' title='脑阔疼ﻩ٥')
+            img(src='https://s2.loli.net/2022/12/04/65B3mSlbdsvr4aU.webp' alt='')
+        .img-group-item
+          a(href='javascript:void(0)' title='广告位招租')
+            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp' alt='')
+        .img-group-item
+          a(href='javascript:void(0)' title='广告位招租')
+            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp' alt='')
+        .img-group-item
+          a(href='javascript:void(0)' title='广告位招租')
+            img(src='https://lskypro.acozycotage.net/LightPicture/2022/12/65307a5828af6790.webp' alt='')
+
+  if theme.footer.owner.enable
+    - var now = new Date()
+    - var nowYear = now.getFullYear()
+    //- if theme.footer.owner.since && theme.footer.owner.since != nowYear
+    //-   .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear} By ${config.author}`
+    //- else
+    //-   .copyright!= `&copy;${nowYear} By ${config.author}`
+    //- 新加的
+    if theme.footer.owner.since && theme.footer.owner.since != nowYear
+      .copyright
+        span!= `<b>&copy;${theme.footer.owner.since}-${nowYear}</b>`
+        span!= `<b>&nbsp;&nbsp;By ${config.author}</b>`
+    else
+       .copyright
+         span!= `<b>&copy;${nowYear}</b>`
+         span!= `<b>&nbsp;&nbsp;By ${config.author}</b>`
+    //- 到这里
+  if theme.footer.copyright
+    .framework-info
+      span= _p('footer.framework') + ' '
+      a(href='https://hexo.io')= 'Hexo'
+      span.footer-separator |
+      span= _p('footer.theme') + ' '
+      a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
+  if theme.footer.custom_text
+    .footer_custom_text!=`${theme.footer.custom_text}`
+  #workboard
+  p#ghbdages
+    a.github-badge(target='_blank' href="https://hexo.io/" style='margin-inline:5px' title="博客框架为Hexo_v6.3.0")
+      img(src="https://sourcebucket.s3.ladydaily.com/badge/Frame-Hexo-blue.svg" alt='')
+
+    a.github-badge(target='_blank' href="https://butterfly.js.org/" style='margin-inline:5px' title="主题版本Butterfly_v4.3.1")
+      img(src="https://sourcebucket.s3.ladydaily.com/badge/Theme-Butterfly-6513df.svg" alt='')
+
+    a.github-badge(target='_blank' href="https://vercel.com/" style='margin-inline:5px' title="本站采用Vercel托管")
+      img(src="https://sourcebucket.s3.ladydaily.com/badge/Hosted-Vercel-brightgreen.svg" alt='')
+
+    a.github-badge(target='_blank' href="https://icp.gov.moe/?keyword=20231206" style='margin-inline:5px' title="本站已加入萌ICP豪华套餐，12/06是对我来说是很重要的一天")
+      img(src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/svg/%E8%90%8CICP%E5%A4%87-20231206-fe1384.svg" alt='')
+
+    a.github-badge(target='_blank' href="https://beian.miit.gov.cn/" style='margin-inline:5px' title="本站已通过ICP备案")
+      img(src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/svg/e1d492.svg" alt='')
+
+    a.github-badge(target='_blank' href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44520202000405" style='margin-inline:5px' title="本站已通过公网安备案")
+      img(src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/svg/9933ff.svg" alt='')
+
+    a.github-badge(target='_blank' href="https://ql.tianli0.top/" style='margin-inline:5px' title="本站使用Tianli的CDN分布")
+      img(src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/cdntianlin.svg" alt='')
+
+    a.github-badge(target='_blank' href="https://github.com/" style='margin-inline:5px' title="本网站源码由Github提供存储仓库")
+      img(src=" https://sourcebucket.s3.ladydaily.com/badge/Source-Github-d021d6.svg" alt='')
+
+    //- a.github-badge(target='_blank' href="http://creativecommons.org/licenses/by-nc-sa/4.0/" style='margin-inline:5px' title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可")
+    //-   img(src="https://sourcebucket.s3.ladydaily.com/badge/Copyright-BY--NC--SA--4.svg" alt='')

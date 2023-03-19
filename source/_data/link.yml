@@ -1,0 +1,154 @@
+#- class_name: 友情链接
+#  class_desc: 那些人，那些事
+#  link_list:
+#    - name: 你会发光叭
+#      link: https://linjiangyu2.github.io
+#      avatar: https://linjiangyu.com/img/fa.jpg
+#      descr: 慢也好，步子小也好，是在往前走就好了
+#
+- class_name: 伙伴
+  class_desc: 一起耍的小伙伴
+  link_list:
+    - name: 你会发光叭
+    #  offline: true
+      link: https://linjiangyu.com
+      avatar: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fa.jpg
+      descr: 一旦你成为自己的太阳,便无需再凭借谁的光
+      siteshot: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/siteshot.jpg
+    - name: 大锤
+      link: https://dddachui.top
+      avatar: https://cdn1.tianli0.top/gh/dddachui/picture_bed/img/avatar.jpg
+      descr: 运维本是逆天而行,死在路上也很正常
+      #siteshot: https://linjiangyu.com/upload/dachui.jpg
+    - name: Fomalhaut🥝
+      link: https://www.fomal.cc
+      avatar: https://www.fomal.cc/assets/head.jpg
+      descr: Future is now 🍭🍭🍭
+    - name: Ethan.Tzy
+      link: https://tzy1997.com
+      avatar: https://bu.dusays.com/2022/05/02/626f92e193879.jpg
+      descr: 古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志
+    - name: 脑阔疼ه٥
+      link: https://naokuoteng.cn/
+      avatar: https://s2.loli.net/2022/12/04/65B3mSlbdsvr4aU.webp
+      descr: 天气转晴 太阳崭新 我在前进
+      siteshot: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1677679034913.jpg
+    #- name: 蓝
+    #  link: https://xiaodengzhp.xyz
+    #  avatar: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/link/tian.jpg
+    #  descr: 万事万物都有属于自己的韵律和节奏
+    #- name: chenmou
+    #  link: https://chenmou.xyz
+    #  avatar: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1678070796476.jpg
+    #  descr: 与时代接轨对你我而言不一定是好事，找到属于你我的轨道才是你我需要做的
+    #  siteshot: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/chenqy.jpg
+- class_name: 友链
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Tianli
+      link: https://tianli-blog.club
+      avatar: https://img1.tianli0.top/logo.png
+      descr: 惟其不可能，所以才相信。
+      #siteshot: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1678585102937.jpg
+    - name: 爱编程的小明
+      link: https://blog.kobal.cn/
+      avatar: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/xiaoming.jpg
+      descr: 不要温和地走进那个良夜
+    - name: BinGo's Blog
+      link: https://zh996.com
+      avatar: https://zh996.com/avatar.png
+      descr: 一个正在躺平的程序猿～
+    - name: 六月长河
+      link: https://charlie-king.github.io
+      avatar: https://kingpo.netlify.app/images/avatar.png
+      descr: 记录，分享，生活与技术的时光印记！
+    #- name: 小苏儒
+    #  link: https://blog.iamsts.cn
+    #  avatar: https://www.iamsts.cn/Services/Home/Image/Avatar.jpg
+    #  descr: 一个咸鱼民航飞友/计算机学生
+    - name: 会飞的鱼
+      link: https://qiandao.space
+      avatar: https://qiandao-blog.oss-cn-hangzhou.aliyuncs.com/202210/logo.png
+      descr: 我欲乘风归去,不留半点痕迹
+    - name: Pei’s Blog
+      link: https://blog.goku.top
+      avatar: https://ghproxy.com/https://raw.githubusercontent.com/sgr997/images/main/blog/avatar.jpg
+      descr: 随记随看
+    - name: 给时光以生命
+      link: https://www.allasone.cc
+      avatar: https://data.allasone.cc/halo/chang'an.png
+      descr: 君不见外州客，长安道，一回来，一回老。
+      siteshot: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/sg.jpg
+    - name: 夏日鱼塘
+      link: https://www.summerpond.cn
+      avatar: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/link/mm.png
+      descr: 一直做困难的事，生活会变得简单
+    - name: 雨探青鸟
+      link: https://lmzyoyo.top
+      avatar: https://imagere.oss-cn-beijing.aliyuncs.com/HaloFiles/莉兹与青鸟.jpg
+      descr: 拥抱开源，兴趣广泛，从事IT的雨探青鸟
+    - name: 开水泡饭的博客
+      link: https://www.kspf.xyz
+      avatar: https://kspf.xyz/upload/2022/10/kspf.jpg
+      descr: 所谓开水泡饭，就是开水泡剩饭
+    - name: 洛希极限
+      link: https://luoxi.icu
+      avatar: https://caojiwen.oss-cn-beijing.aliyuncs.com/img/QQ%E5%9B%BE%E7%89%8720210921162845.jpg
+      descr: 吾犹在此待卿也
+    - name: roydon
+      link: https://www.roydon.top
+      avatar: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/roy.jpg
+      descr: 人要走多少路才能在时光的尽头找寻到真正的自己
+      siteshot: https://bu.dusays.com/2023/01/04/63b5663b9c22e.png
+    - name: Ronny's Blog
+      link: https://www.wrqj.xyz
+      avatar: https://www.wrqj.xyz/img/avatar.jpg
+      descr: Try to do better
+    - name: 轻笑Chuckle
+      link: https://www.qcqx.cn
+      avatar: https://www.qcqx.cn/img/head.webp
+      descr: 漫天倾尘,风中轻笑
+      siteshot: https://www.qcqx.cn/img/chuckle.webp
+    - name: Xlenco
+      link: https://blog.xlenco.top/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=1043865083&s=5
+      descr: 最好的地方,是没去过的地方。最好的时光，是回不来的时光。
+      siteshot: https://s2.loli.net/2022/12/26/UrkH1Am6Gb9O2iw.webp
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://img.zhheo.com/i/2022/08/19/62ff32fa28da1.png
+      descr: 分享设计与科技生活
+    - name: Leonus
+      link: https://blog.leonus.cn/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=553344777&s=5
+      descr: 进一寸有进一寸的欢喜。
+    - name: 安知鱼
+      link: https://anzhiy.cn/
+      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/anzhiy.cn.jpg
+    - name: 山岳库博
+      link: https://kmar.top/
+      avatar: https://cdn.jsdelivr.net/npm/@kmar/fonts/avatar/own.png
+      descr: 开发学习启发性二刺螈
+      siteshot: https://cdn.jsdelivr.net/npm/@kmar/fonts/sc/own.jpg
+    - name: 幻想乡の红魔馆
+      link: https://ming-e.space/
+      avatar: https://ming-e.space/images/1.webp
+      descr: 车万人万岁
+      siteshot: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1678064942567.jpg
+    - name: kwobron
+      link: https://www.acozycotage.net/
+      avatar: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/2d02753ae747ac6e.webp
+      descr: 寄言燕雀莫相唣，自有云霄万里高 🍭🍭🍭
+      siteshot: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/cartafi.jpg
+    - name: 怕冷爱上雪
+      link: https://blog.4t.pw/
+      avatar: https://blog.4t.pw/img/favicon.webp
+      descr: 千里之行，始于足下。
+      siteshot: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1678179240792.jpg
+    - name: Rootlex
+      link: https://blog.nalex.top
+      avatar: https://bu.dusays.com/2023/01/25/63d130a6ce9ea.jpg
+      descr: 寒蝉黎明之时，便是重生之日
+      siteshot: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1678600390015.jpg

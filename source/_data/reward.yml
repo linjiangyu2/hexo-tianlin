@@ -1,0 +1,5 @@
+- class_name: 赞赏
+  reward_list:
+    - name: tzy
+      amount: 0.99
+      datatime: 2023-03-15

@@ -1,0 +1,68 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: Linux
+      color: "#ffffcc"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/linux111.jpg
+    - name: Redhat
+      color: "#001a00"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/redhat111.jpg
+    - name: CentOS
+      color: "#ffffb3"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/centos111.jpg
+    - name: Nginx
+      color: "#e5fff2"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/nginx1111.jpg
+    - name: Docker
+      color: "#57b8e6"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/63300647df7fa.png
+    - name: Python
+      color: "#fff"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/python111.jpg
+    - name: Kubernetes
+      color: "#2c52db"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/kubernetes111.jpg
+    - name: MySQL
+      color: "#e8b6e6"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/mysql_original_wordmark_logo_icon_146417%20(1).png
+    - name: Redis
+      color: "#2351db"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/redis_original_logo_icon_146368.png
+    - name: mongodb
+      color: "#13c1db"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/mongodb_original_wordmark_logo_icon_146425%20(1).png
+    - name: Zabbix
+      color: "#dc51db"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zabbix111.jpg
+    - name: Prometheus
+      color: "#2c51db"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/prometheus111.jpg
+    - name: Apache
+      color: "#ffccff"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/apache_original_wordmark_logo_icon_146643.png
+    - name: Ceph
+      color: "#bc51db"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/ceph111.jpg
+    - name: Haproxy
+      color: "#b3ffff"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/haproxy111.jpg
+    - name: Jenkins
+      color: "#99ccff"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/jenkins_favicon.jpg
+    - name: Github
+      color: "#333333"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/github111.jpg
+    - name: Gitlab
+      color: "#ffbf80"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/gitlab_icon_130930.png
+    - name: Tomcat
+      color: "#ffffff"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/tomcat1111.jpg
+    - name: CSS
+      color: "#2c51db"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/633006cc55e07.png
+    - name: HTML
+      color: "#1aff1a"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/633006f9ab27d.png
+    - name: Git
+      color: "#df5b40"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/633006e37c7fd.webp
