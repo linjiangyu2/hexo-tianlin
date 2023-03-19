@@ -13,5 +13,5 @@ wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试! #密码�
 {% galleryGroup '椎名真昼' '真昼图片' '/personal/zhenzhou' https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zz.jpg %}
 </div>
 {% sitegroup %}
-{% site 我的宝藏, url=https://www.linjiangyu.com/collect, screenshot=https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/bz.png, avatar=https://linjiangyu.com/upload/favicon.jpg, description=我的宝藏 %}
+{% site 我的宝藏, url=https://www.linjiangyu.com/collect, screenshot=https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/bz.png, avatar=https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fa.jpg, description=我的宝藏 %}
 {% endsitegroup %}
