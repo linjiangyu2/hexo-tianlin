@@ -2,7 +2,7 @@
 title: 关于
 date: 2022-08-10 16:05:11
 top_img: false
-background: "#ccffff"
+background: url(https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/bf2cec1b492d8151f65c5d283ea48cf.png)
 comments: false
 type: 'about'
 ---
