@@ -5,7 +5,7 @@ update: 2022-11-29 20:00:01
 comments: false
 password: abcd0702
 theme: xray
-message: 哒咩,不可以偷看我的东西哦
+message: 不可以偷看我的东西哦
 abstract: 只有你和我才知道密码! #密码框提示信息
 wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试! #密码错误提示信息
 ---

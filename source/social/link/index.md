@@ -8,7 +8,7 @@ type: "link"
 {% tabs link %}
 <!-- tab 🙋 butterfly-💭candy -->
 ```yml
-    - name: 你会发光叭
+    - name: Tianlin_Zz
       link: https://linjiangyu.com
       avatar: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fa.jpg
       descr: 一旦你成为自己的太阳,便无需再凭借谁的光
@@ -19,12 +19,12 @@ type: "link"
 <!-- tab 🥗Volantis -->
 ```JSON
 {
-  "title": "你会发光叭",
+  "title": "Tianlin_Zz",
   "screenshot": "https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/siteshot.jpg",
   "url": "https://linjiangyu.com",
   "avatar": "https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fa.jpg",
   "description": "一旦你成为自己的太阳,便无需再凭借谁的光",
-  "keywords": "你会发光叭"
+  "keywords": "Tianlin_Zz"
 }
 ```
 <!-- endtab -->
@@ -33,12 +33,12 @@ type: "link"
 
 | 名称       | 数值                                                         |
 | ---------- | ------------------------------------------------------------ |
-| 站点名称   | 你会发光叭                                                  |
+| 站点名称   | Tianlin_Zz                                                  |
 | 站点截图   | https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/siteshot.jpg |
 | 站点链接   | https://linjiangyu.com/                                        |
 | 站长头像   | https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fa.jpg                         |
 | 站点描述   | 一旦你成为自己的太阳,便无需再凭借谁的光                      |
-| 站点关键词 | 你会发光叭,linjiangyu,运维                                    |
+| 站点关键词 | Tianlin_Zz,linjiangyu,运维                                    |
 
 <!-- endtab -->
 {% endtabs %}

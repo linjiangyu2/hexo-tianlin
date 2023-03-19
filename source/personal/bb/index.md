@@ -213,7 +213,7 @@ function pageTalk() {
         data.data.forEach(item => { items.push(Format(item)) });
         if (items.length == 30) document.querySelector('.limit').style.display = 'block';
         items.forEach(item => {
-            html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox nolazyload avatar" src="https://linjiangyu.com/upload/favicon.jpg"><div class="info"><span class="talk_nick">你会发光叭${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div><div class="talk_bottom"><div><span class="talk_tag"># ${item.tag}</span></div><a href="javascript:;"onclick="goComment('${item.text}')"><span class="icon"><i class="fa-solid fa-message fa-fw"></i></span></a></div></div>` // 注意修改头像链接和名称
+            html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox nolazyload avatar" src="https://linjiangyu.com/upload/favicon.jpg"><div class="info"><span class="talk_nick">Tianlin_Zz${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div><div class="talk_bottom"><div><span class="talk_tag"># ${item.tag}</span></div><a href="javascript:;"onclick="goComment('${item.text}')"><span class="icon"><i class="fa-solid fa-message fa-fw"></i></span></a></div></div>` // 注意修改头像链接和名称
         })
         document.getElementById('talk').innerHTML = html
     })

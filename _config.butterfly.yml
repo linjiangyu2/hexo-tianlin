@@ -1142,7 +1142,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <script type="text/javascript" src ="https://cdn1.tianli0.top/gh/linjiangyu2/halo/cdn/3/reward.js" ></script> # 关于页面赞赏
+    - <script type="text/javascript" src ="https://cdn1.tianli0.top/gh/linjiangyu2/halo/cdn/4/reward.js" ></script> # 关于页面赞赏
     - <script src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/cdn/sweetalert2.all.min.js"></script> # 关于页面
     #- <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     #- <script>LA.init({id:"K0OTPO7TvddCrW8I",ck:"K0OTPO7TvddCrW8I"})</script>
@@ -1176,7 +1176,7 @@ inject:
     - <script async src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/cdn/Gold-ingot.js"></script>  # 新年元宝
     - <canvas id="universe"></canvas> # 星空画布
     - <canvas id="snow"></canvas> # 雪花画布
-    - <script defer src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/cdn/2/fomal.js"></script> # 主模块js
+    - <script defer src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/cdn/3/fomal.js"></script> # 主模块js
     #- <script defer src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/js/fomal.js"></script> # 主模块js
     #- <script defer src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/js/fomal.js"></script> # 主模块js
 

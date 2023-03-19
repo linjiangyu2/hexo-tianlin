@@ -1,7 +1,7 @@
 #- class_name: 友情链接
 #  class_desc: 那些人，那些事
 #  link_list:
-#    - name: 你会发光叭
+#    - name: Tianlin_Zz
 #      link: https://linjiangyu2.github.io
 #      avatar: https://linjiangyu.com/img/fa.jpg
 #      descr: 慢也好，步子小也好，是在往前走就好了
@@ -9,7 +9,7 @@
 - class_name: 伙伴
   class_desc: 一起耍的小伙伴
   link_list:
-    - name: 你会发光叭
+    - name: Tianlin_Zz
     #  offline: true
       link: https://linjiangyu.com
       avatar: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fa.jpg

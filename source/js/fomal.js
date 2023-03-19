@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | 你会发光叭")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | Tianlin_Zz")[0];
 }
 
 function scrollToTop() {
@@ -1119,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到你会发光叭の小家!`,
+    `欢迎来到Tianlin_Zzの小家!`,
     `一旦你成为自己的太阳 便无须再凭借谁的光`,
     `.__  .__            __.__                                   
 |  | |__| ____     |__|__|____    ____    ____ ___.__.__ __ 
@@ -1131,7 +1131,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By 你会发光叭",
+    "©2022 By Tianlin_Zz",
   ];
 
   setTimeout(
@@ -1170,7 +1170,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Ppowered by 你会发光叭 %c 你正在访问你会发光叭の小家",
+      "%c ⚡ Ppowered by Tianlin_Zz %c 你正在访问Tianlin_Zzの小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1280,8 +1280,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| 你会发光叭") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('你会发光叭\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| Tianlin_Zz") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('Tianlin_Zz\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({

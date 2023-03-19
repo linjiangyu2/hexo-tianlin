@@ -25,7 +25,7 @@ date: 2023-02-27 08:28:49
 {% video https://cdn1.tianli0.top/gh/linjiangyu2/halo/video/sakana.mp4 %}
 {% endhideBlock %}
 {% sitegroup %}
-{% site 你会发光吧, url=https://blog.linjiangyu.com/link/, screenshot=https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/saka.png, avatar=https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fa.jpg, description=我的站点 %}
+{% site Tianlin_Zz, url=https://blog.linjiangyu.com/link/, screenshot=https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/saka.png, avatar=https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fa.jpg, description=我的站点 %}
 {% endsitegroup %}
 {% endfolding %}
 ### 教程

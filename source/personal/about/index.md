@@ -37,8 +37,8 @@ type: 'about'
 
 {% note blue 'fas fa-bullhorn' disabled %}相关注意事项{% endnote %}
 所有文章在本人未授权的情况下不可转载
-作者: 你会发光叭
+作者: Tianlin_Zz
 邮箱: linjiangyu0702@linjiangyu.com
 链接: https://linjiangyu.com
-来源: 你会发光叭
+来源: Tianlin_Zz
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
