@@ -22,7 +22,7 @@
       color: "#2c52db"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/kubernetes111.jpg
     - name: MySQL
-      color: "#e8b6e6"
+      color: "#e5f2ff"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/mysql_original_wordmark_logo_icon_146417%20(1).png
     - name: Redis
       color: "#2351db"
