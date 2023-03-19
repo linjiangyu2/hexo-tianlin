@@ -1,6 +1,9 @@
 ---
 title: 关于
 date: 2022-08-10 16:05:11
+aside: false
+top_img: false
+background: "#ccffff"
 comments: false
 type: 'about'
 ---

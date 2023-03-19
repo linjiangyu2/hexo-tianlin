@@ -30,8 +30,11 @@
     - name: mongodb
       color: "#13c1db"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/mongodb_original_wordmark_logo_icon_146425%20(1).png
+    - name: ELK
+      color: "#ffffff"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/apple-icon-57x57.png
     - name: Zabbix
-      color: "#dc51db"
+      color: "#ffeecc"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zabbix111.jpg
     - name: Prometheus
       color: "#2c51db"
@@ -42,12 +45,18 @@
     - name: Ceph
       color: "#bc51db"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/ceph111.jpg
+    - name: Hadoop
+      color: "#ffffff"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/elephant.png
     - name: Haproxy
       color: "#b3ffff"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/haproxy111.jpg
     - name: Jenkins
       color: "#99ccff"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/jenkins_favicon.jpg
+    - name: Consul
+      color: "#ffffff"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/consul111.jpg
     - name: Github
       color: "#333333"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/github111.jpg
@@ -57,6 +66,9 @@
     - name: Tomcat
       color: "#ffffff"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/tomcat1111.jpg
+    - name: Frp
+      color: "#ffffff"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/frp111.jpg
     - name: CSS
       color: "#2c51db"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/633006cc55e07.png
