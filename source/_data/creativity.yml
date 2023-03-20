@@ -46,7 +46,7 @@
       color: "#ffccff"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/apache_original_wordmark_logo_icon_146643.png
     - name: Ceph
-      color: "#ffe5ff"
+      color: "#ccfff2"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/ceph111.jpg
     - name: Hadoop
       color: "#ffffff"

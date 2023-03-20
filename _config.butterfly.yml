@@ -445,7 +445,7 @@ reward:
     - img: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/wxzf.jpg
       link:
       text: 微信
-    - img: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zfbzf.jpg
+    - img: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zfbzf2.jpg
       link:
       text: 支付宝
 
@@ -1142,7 +1142,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    - <script type="text/javascript" src ="https://cdn1.tianli0.top/gh/linjiangyu2/halo/cdn/4/reward.js" ></script> # 关于页面赞赏
+    - <script type="text/javascript" src ="https://cdn1.tianli0.top/gh/linjiangyu2/halo/cdn/5/reward.js" ></script> # 关于页面赞赏
     - <script src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/cdn/sweetalert2.all.min.js"></script> # 关于页面
     #- <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     #- <script>LA.init({id:"K0OTPO7TvddCrW8I",ck:"K0OTPO7TvddCrW8I"})</script>
