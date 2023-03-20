@@ -9,6 +9,9 @@
     - name: CentOS
       color: "#ffffb3"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/centos111.jpg
+    - name: RockyLinux
+      color: "#ffffff"
+      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/rockylinux1111.png
     - name: Nginx
       color: "#e5fff2"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/nginx1111.jpg
@@ -43,7 +46,7 @@
       color: "#ffccff"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/apache_original_wordmark_logo_icon_146643.png
     - name: Ceph
-      color: "#bc51db"
+      color: "#ffe5ff"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/ceph111.jpg
     - name: Hadoop
       color: "#ffffff"
