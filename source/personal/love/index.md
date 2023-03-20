@@ -9,9 +9,47 @@ message: 不可以偷看我的东西哦
 abstract: 只有你和我才知道密码! #密码框提示信息
 wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试! #密码错误提示信息
 ---
-<div class="gallery-group-main">
-{% galleryGroup '椎名真昼' '真昼图片' '/personal/zhenzhou' https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/zz.jpg %}
+<style>
+/*哔哩哔哩视频适配*/
+.video-bilibili {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 65%;
+  margin: 3% auto;
+  text-align: center;
+}
+.video-bilibili iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.video-youtube {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  margin: 3% auto;
+}
+.video-youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+<div class="video-bilibili">
+  <iframe
+    src="//player.bilibili.com/player.html?aid=524989804&bvid=BV17M411E7MX&cid=1022651248&page=1"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    high_quality="1"
+    danmaku="1"
+    allowfullscreen="true"
+  ></iframe>
 </div>
-{% sitegroup %}
-{% site 我的宝藏, url=https://www.linjiangyu.com/collect, screenshot=https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/bz.png, avatar=https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/fa.jpg, description=我的宝藏 %}
-{% endsitegroup %}
