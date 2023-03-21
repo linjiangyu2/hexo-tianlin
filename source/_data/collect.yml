@@ -323,6 +323,11 @@
       score: 5
       icon: iconfont icon-daochu1024-23
       tip: 漫画
+    - name: 异世界悠闲农家
+      img: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1679374295275.jpg
+      score: 5
+      icon: iconfont icon-daochu1024-23
+      tip: 动漫
     - name: 罪恶王冠
       img: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1678091038608.jpg
       score: 5
@@ -800,6 +805,11 @@
       tip: 动漫
     - name: 零之使魔
       img: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1679017388630.jpg
+      score: 5
+      icon: iconfont icon-daochu1024-23
+      tip: 轻小说
+    - name: 掠夺者
+      img: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1679382834757.jpg
       score: 5
       icon: iconfont icon-daochu1024-23
       tip: 轻小说
