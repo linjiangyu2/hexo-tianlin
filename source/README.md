@@ -1,4 +1,4 @@
-<h1 align='center'>⚡️<i>Stay awesome!</i>⚡️</h1>
+lign='center'>⚡️<i>Stay awesome!</i>⚡️</h1>
 
 <p align="center">
         <img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/Bottom.svg" alt="Github Stats" />
