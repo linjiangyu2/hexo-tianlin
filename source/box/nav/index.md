@@ -12,9 +12,11 @@ comments: false
 </div>
 {% radio cyan, 好用的工具 %}
 <div class="gallery-group-main">
+{% galleryGroup '博弈AI' '国产ChatGpt镜像' 'https://ai.bo-e.com/' https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1679900635966.jpg %}
 {% galleryGroup 'tinypng' '无损压缩图片' 'https://tinypng.com/' https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/xmxx.png  %}
 {% galleryGroup 'images tool' '无损有损压缩图片' 'https://imagestool.com/zh_CN/index.html' https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/i.png  %}
 {% galleryGroup '迅捷在线压缩' '无损有损压缩视频' 'https://yasuo.xunjiepdf.com/video/?zhljj220702' https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/%E8%BF%85.png  %}
+{% galleryGroup 'Cheat Sheet' 'Web开发小工具' 'https://htmlcheatsheet.com/' https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1679900322895.jpg  %}
 {% galleryGroup '编程狮' '在线颜色选取' 'https://www.w3cschool.cn/tools/index?name=cpicker' https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/wdadefa.png  %}
 </div>
 {% radio gray, 上帝之眼 %}
