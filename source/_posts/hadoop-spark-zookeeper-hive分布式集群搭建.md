@@ -594,7 +594,7 @@ No rows affected (0.558 seconds)
 
 {% note default orange simple %}貌似是日志收集应用{% endnote %}
 
-- 把[apache-flume-bin.tar.gz](https://dlcdn.apache.org/flume/1.11.0/apache-flume-1.11.0-bin.tar.gz) 下载并上传到系统中
+- 把[apache-flume-bin.tar.gz](https://dlcdn.apache.org/flume/1.11.0/apache-flume-1.11.0-bin.tar.gz)下载并上传到系统中
 
   ```nginx
   # tar xf apache-flume-1.11.0-bin.tar.gz && rm -f apache-flume-1.11.0-bin.tar.gz
@@ -630,7 +630,7 @@ No rows affected (0.558 seconds)
   # flume-ng agent -n a1 -c ./ -f ./netcat-logger.conf -Dflume.root.logger=INFO,console  // 启动服务
 
   # yum install -y telnet
-  # telnet 127.0.0.1 444444
+  # telnet 127.0.0.1 44444
     // 随便写点东西回车会有OK出现就行了
   ```
 
