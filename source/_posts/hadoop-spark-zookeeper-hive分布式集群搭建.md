@@ -590,4 +590,48 @@ No rows affected (0.558 seconds)
 +-------------+---------------+--------------+
 3 rows selected (3.141 seconds)
 ```
+### flume
+
+{% note default orange simple %}貌似是日志收集应用{% endnote %}
+
+- 把[apache-flume-bin.tar.gz](https://dlcdn.apache.org/flume/1.11.0/apache-flume-1.11.0-bin.tar.gz) 下载并上传到系统中
+
+  ```nginx
+  # tar xf apache-flume-1.11.0-bin.tar.gz && rm -f apache-flume-1.11.0-bin.tar.gz
+  
+  # mv apache-flume* /usr/local/flume
+  
+  # vim /etc/profile
+  export FLUME_HOME=/usr/local/flume
+  export PATH=${FLUME_HOME}/bin:$PATH
+  
+  # source /etc/profile
+  
+  # cd /usr/local/flume/conf/
+  # cp flume-env.sh.template flume-env.sh
+  # vim flume-env.sh
+  // 在最上面添加
+  export JAVA_HOME=/usr/local/jdk
+  
+  # vim netcat-logger.conf 
+  a1.sources = r1
+  a1.sinks = k1
+  a1.channels = c1
+  a1.sources.r1.type = netcat
+  a1.sources.r1.bind = 0.0.0.0
+  a1.sources.r1.port = 44444
+  a1.sinks.k1.type = logger
+  a1.channels.c1.type = memory
+  a1.channels.c1.capacity = 1000
+  a1.channels.c1.transactionCapacity = 100
+  a1.sources.r1.channels = c1
+  a1.sinks.k1.channel = c1
+  
+  # flume-ng agent -n a1 -c ./ -f ./netcat-logger.conf -Dflume.root.logger=INFO,console  // 启动服务
+
+  # yum install -y telnet
+  # telnet 127.0.0.1 444444
+    // 随便写点东西回车会有OK出现就行了
+  ```
+
 ![](https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/siMAqL1Zewz3QlJ.webp)
