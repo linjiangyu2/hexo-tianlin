@@ -24,9 +24,6 @@
     - name: Python
       color: "#fff"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/python111.jpg
-    - name: Varnish
-      color: "#2fw2db"
-      icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/varnish111.jpg
     - name: MySQL
       color: "#e5f2ff"
       icon: https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/mysql_original_wordmark_logo_icon_146417%20(1).png
