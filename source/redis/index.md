@@ -8,6 +8,28 @@ type: "unit"
 ---
 ### redis.service
 ```mysql
+# cat > /usr/lib/systemd/system/redis.service <<END
+# /usr/lib/systemd/system/redis.service
+[Unit]
+Description=Redis unit by Tianlin
+Documentation=https://linjiangyu.com/redis
+After=network-online.target remote-fs.target nss-lookup.target
+Wants=network-online.target 
+
+[Service]
+Type=simple
+PIDFile=/usr/local/redis/run/redis_6379.pid
+ExecStart=/usr/local/redis/bin/redis-server /usr/local/redis/conf/redis.conf --supervised systemd
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s TERM $MAINPID
+User=redis
+Group=redis
+
+[Install]
+WantedBy=multi-user.target
+END
+
+或者是
 ~]# cat > /usr/lib/systemd/system/redis.service <<END
 # /usr/lib/systemd/system/redis.service
 # author: linjiangyu
