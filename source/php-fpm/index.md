@@ -7,6 +7,29 @@ url: /apache
 type: "unit"
 ---
 ```nginx
+# cat > /usr/lib/systemd/system/php-fpm.service <<END
+# /usr/lib/systemd/system/php-fpm.service
+[Unit]
+Description=Unit PHP-FPM By Tianlin
+Documentation=https://linjiangyu.com/php-fpm
+After=network-online.target nss-lookup.target
+Wants=network-online.target
+
+[Service]
+Type=forking
+PIDFile=/usr/local/php/var/run/php-fpm.pid
+ExecStart=/usr/local/php/sbin/php-fpm -y /usr/local/php/etc/php-fpm.conf
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+User=www
+Group=www
+
+[Install]
+WantedBy=multi-user.target
+END
+```
+- 或者是
+```nginx
 ~]# cat > /usr/lib/systemd/system/php-fpm.service <<END
 # /usr/lib/systemd/system/php-fpm.service
 # author: linjiangyu

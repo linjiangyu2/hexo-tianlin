@@ -892,8 +892,6 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - 地球包括我吗
-    - 对我来说 你就是地球的中心
     - ZHE SHI JIE BU TING KAI HUA WO XIANG FANG JIN NI XIN LI YI DUO
     - 这世界不停开花 我想放进你心里一朵
     - MAN YE HAO BU ZI XIAO YE HAO SI ZAI WANG QIAN ZOU JIU HAO LE
@@ -944,7 +942,7 @@ aside:
   card_announcement:
     enable: true
     #content: <center><b>--- 主域名 ---<br><a href="https://linjiangyu.com" title="此线路托管于Vercel" class="anno_content"><font color="#5ea6e5">linjiangyu.com</font></a>&nbsp;</a>🍧<br>--- 备用域名 ---<br><a href="https://fleek.linjiangyu.com/" title="此线路托管于Fleek" class="anno_content"><font color="#5ea6e5">fleek.linjiangyu.com</font></a>🍰<br><a href="https://netlify.linjiangyu.com/" title="此线路托管于Netlify" class="anno_content"><font color="#5ea6e5">netlify.linjiangyu.com</font></a>🍨<br><a href="https://cloudflare.linjiangyu.com" title="此线路托管于Cloudflare" class="anno_content"><font color="#5ea6e5">cloudflare.linjiangyu.com</font></a>🍬</b></center>
-    content: <center><b>--- 主域名 ---<br><a href="https://linjiangyu.com" title="此线路托管于Vercel" class="anno_content"><font color="#5ea6e5">linjiangyu.com</font></a>&nbsp;</a>🍧<br>--- 私人云盘 ---<br><a href="https://alist.linjiangyu.com/" title="此Alist私人云盘托管于Render" class="anno_content"><font color="#5ea6e5">alist.linjiangyu.com</font></a>📮<br>--- 备用域名 ---<br><a href="httsps://fleek.linjiangyu.com/" title="此线路托管于Fleek" class="anno_content"><font color="#5ea6e5">fleek.linjiangyu.com</font></a>🍰<br><a href="https://netlify.linjiangyu.com/" title="此线路托管于Netlify" class="anno_conent"><font color="#5ea6e5">netlify.linjiangyu.com</font></a>🍨<br><a href="https://cloudflare.linjiangyu.com"title="此线路托管于Cloudflare" class="anno_content"><font color="#5ea6e5">cloudflare.linjiangyu.com</font></a>🍬</b></center>
+    content: <center><b>--- 主域名 ---<br><a href="https://linjiangyu.com" title="此线路托管于Vercel" class="anno_content"><font color="#5ea6e5">linjiangyu.com</font></a>&nbsp;</a>🍧<br>--- 私人云盘 ---<br><a href="https://alist.linjiangyu.com/" title="此Alist私人云盘托管于Render" class="anno_content"><font color="#5ea6e5">alist.linjiangyu.com</font></a>📮<br>--- 备用域名 ---<br><a href="httsp://fleek.linjiangyu.com/" title="此线路托管于Fleek" class="anno_content"><font color="#5ea6e5">fleek.linjiangyu.com</font></a>🍰<br><a href="https://netlify.linjiangyu.com/" title="此线路托管于Netlify" class="anno_conent"><font color="#5ea6e5">netlify.linjiangyu.com</font></a>🍨<br><a href="https://cloudflare.linjiangyu.com"title="此线路托管于Cloudflare" class="anno_content"><font color="#5ea6e5">cloudflare.linjiangyu.com</font></a>🍬</b></center>
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all
