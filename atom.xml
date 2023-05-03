@@ -6,7 +6,7 @@
   <link href="https://www.linjiangyu.com/atom.xml" rel="self"/>
   
   <link href="https://www.linjiangyu.com/"/>
-  <updated>2023-05-03T04:51:11.873Z</updated>
+  <updated>2023-05-03T05:05:07.855Z</updated>
   <id>https://www.linjiangyu.com/</id>
   
   <author>
@@ -21,30 +21,9 @@
     <link href="https://www.linjiangyu.com/posts/ba51ac6f.html"/>
     <id>https://www.linjiangyu.com/posts/ba51ac6f.html</id>
     <published>2023-05-03T03:44:21.000Z</published>
-    <updated>2023-05-03T04:51:11.873Z</updated>
+    <updated>2023-05-03T05:05:07.855Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Lora模型训练">Lora模型训练</h3><p>最近一直没有更新博客，一方面因为自己在准备实习需要的东西时间很赶，另一方面就是因为AI绘画玩具啦。</p><p>我一直认为人的时间是有限且短暂的，应该在应该的年龄做应该做的有意义的事情，但是认识我的人应该都知道我是个老魔怔二次元了🤣，对于可以画出我理想中的人物图片，我是无法忍住不去了解的。</p><h3 id="Stable-Diffusion">Stable Diffusion</h3><ul><li><p>这里我是使用的来着<a href="https://space.bilibili.com/12566101">B站阿婆主秋葉</a>所发布的<a href="https://pan.baidu.com/share/init?surl=TK7UyX5lgNjdwdfcmYCI5Q?pwd=c132">Stable Diffusion V4整合包</a> 部署在本地电脑的AI绘画的</p></li><li><p>整合包下载后包括两个文件</p><p><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/DQAX0_I2%5D~%5DX%7BEVR%5BLSK9LL.png" alt=""></p></li></ul><ol><li><p>首先运行启动器依赖</p></li><li><p>解压sd-webui-aki-v4.zip</p></li><li><p>进入sd-webui-aki-v4文件夹打开启动器后一键启动等待控制台输出完毕弹出Web Ui界面就可以开始绘图啦</p><p><img src="C:/Users/%E6%9E%97%E5%A7%9C%E7%BE%BD/Downloads/1683086006853.jpg" alt=""></p></li><li><p>整合包已经安装好汉化，这里的正向提示词就是输入你想要让AI画出人物的描述啦，例如masterpiece,1 girl, very detailed CG, beautiful eyes, very detailed, Blackboard painting, complex details_ 1.2, 8k wallpaper, jk等等，默认使用英文，用逗号分割词语，而负面提示词则是反着来了，例如写入worst quality,bad hands等等</p><ul><li>这里推荐使用我的TAG生成器</li></ul><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1682909507747.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Tianlin_Tag</div>  <p>自用TAG生成工具</p>  <a href='https://tag.linjiangyu.com/'></a>  </figcaption>  </figure>  </div></li><li><p>实际生成一张吧，因为我的破烂电脑显卡不行，显存不够所以这里等上个把分钟都是不奇怪的，具体还是看你与显卡之间的羁绊吧🤣</p><p><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1683087991679.jpg" alt=""></p><p><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/00010-235500343-masterpiece,1%20girl,%20very%20detailed%20CG,%20beautiful%20eyes,%20very%20detailed,%20Blackboard%20painting,%20complex%20details_%201.2,%208k%20wallpaper,%20jk.png" alt=""></p><p>​这里看可能会有点模糊？我还经过了压缩才上传显示在此网页中的原因吧，可以看到AI可以很好的绘画出我们满意的图片</p><ul><li>而且在Stable Diffusion中也有图片放大的运行，图片放大其实是在已知像素点的位置上估算新的像素点的值。这可以通过计算原图像中的相邻像素点的平均值或加权平均值来实现。这样，我们就可以在原图像中的每个像素点之间估算出新的像素点的值，从而来增加图像的分辨率和清晰度</li><li>Stable Diffusion非常强大，甚至还支持文件夹中图片批量处理输出</li></ul><p><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1683088698837.png" alt=""></p><p><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1683089264426.jpg" alt=""></p><p>在这里上传你需要放大处理的图片，我一般都是使用BSRGAN算法来放大处理的，缩放比例也是常用的3，最高可以到8，分辨率调到太高的时候图片的线条会过分明显我并不喜欢。</p><p>…以下还在施工中</p></li></ol>]]></content>
-    
-    
-    <summary type="html">Lora模型训练</summary>
-    
-    
-    
-    <category term="演示" scheme="https://www.linjiangyu.com/categories/%E6%BC%94%E7%A4%BA/"/>
-    
-    
-    <category term="AI" scheme="https://www.linjiangyu.com/tags/AI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Lora模型训练.md</title>
-    <link href="https://www.linjiangyu.com/posts/ba51ac6f.html"/>
-    <id>https://www.linjiangyu.com/posts/ba51ac6f.html</id>
-    <published>2023-05-03T03:44:21.000Z</published>
-    <updated>2023-05-03T04:36:11.031Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="Lora模型训练">Lora模型训练</h3><p>最近一直没有更新博客，一方面因为自己已经在准备实习时间很赶，另一方面就是因为AI绘画的玩具啦。</p><h3 id="Stable-Diffusion">Stable Diffusion</h3><ul><li><p>这里我是使用的来着<a href="https://space.bilibili.com/12566101">B站阿婆主秋葉</a>所发布的<a href="https://pan.baidu.com/share/init?surl=TK7UyX5lgNjdwdfcmYCI5Q?pwd=c132">Stable Diffusion V4整合包</a> 部署在本地电脑的AI绘画的</p></li><li><p>整合包下载后包括两个文件</p><p><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/DQAX0_I2%5D~%5DX%7BEVR%5BLSK9LL.png" alt=""></p></li></ul><ol><li><p>首先运行启动器依赖</p></li><li><p>解压sd-webui-aki-v4.zip</p></li><li><p>进入sd-webui-aki-v4文件夹打开启动器后一键启动便可以开始绘图啦</p><p><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1683086006853.jpg" alt=""></p></li><li><p>整合包已经安装好汉化，这里的正向提示词就是输入你想要让AI画出人物的描述啦，例如masterpiece,1 girl, very detailed CG, beautiful eyes, very detailed, Blackboard painting, complex details_ 1.2, 8k wallpaper, jk等等，默认使用英文，用逗号分割词语，而负面提示词则是反着来了，例如写入worst quality,bad hands等等</p><ul><li>这里推荐使用我的TAG生成器</li></ul><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1682909507747.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Tianlin_Tag</div>  <p>自用TAG生成工具</p>  <a href='https://tag.linjiangyu.com/'></a>  </figcaption>  </figure>  </div></li><li><p>实际生成一张吧，因为我的破烂电脑显卡不行，显存不够所以这里等上个把分钟都是不奇怪的，具体还是看你与显卡之间的羁绊吧🤣</p><p><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1683087991679.jpg" alt=""></p><p><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/00010-235500343-masterpiece,1%20girl,%20very%20detailed%20CG,%20beautiful%20eyes,%20very%20detailed,%20Blackboard%20painting,%20complex%20details_%201.2,%208k%20wallpaper,%20jk.png" alt=""></p><p>​这里看可能会有点模糊？我还经过了压缩才上传显示在此网页中的原因吧，可以看到AI可以很好的绘画出我们满意的图片</p><ul><li>而且在Stable Diffusion中也有图片放大的运行，图片放大其实是在已知像素点的位置上估算新的像素点的值。这可以通过计算原图像中的相邻像素点的平均值或加权平均值来实现。这样，我们就可以在原图像中的每个像素点之间估算出新的像素点的值，从而来增加图像的分辨率和清晰度</li></ul></li></ol>]]></content>
     
     
     <summary type="html">Lora模型训练</summary>
@@ -417,6 +396,27 @@
     
     
     <category term="redis" scheme="https://www.linjiangyu.com/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>好用的软件</title>
+    <link href="https://www.linjiangyu.com/posts/3df4b4e4.html"/>
+    <id>https://www.linjiangyu.com/posts/3df4b4e4.html</id>
+    <published>2022-10-21T08:57:50.000Z</published>
+    <updated>2022-10-22T06:29:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="site-card-group"><a class="site-card" href="https://dddachui.top/article/df3146b2.html"><div class="img"><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/1676536555990.png"/></div><div class="info"><img src="https://dddachui.top/download/other/wanye.jpg"/><span class="title">大锤の博客</span><span class="desc">从锤老师那里搬运的</span></div></a></div><h3 id="开源软件-持续更新">开源软件(持续更新)</h3><div class="note default orange simple"><p>RSS软件</p></div><p><a href="https://github.com/yang991178/fluent-reader">https://github.com/yang991178/fluent-reader</a></p><div class="note default orange simple"><p>ssh工具windterm</p></div><p><a href="https://github.com/kingToolbox/WindTerm">https://github.com/kingToolbox/WindTerm</a></p><div class="note default orange simple"><p>代码片段管理工具massCode</p></div><p><a href="https://github.com/massCodeIO/massCode">https://github.com/massCodeIO/massCode</a></p><div class="note default orange simple"><p>远程桌面rustdesk</p></div><p><a href="https://github.com/rustdesk/rustdesk">https://github.com/rustdesk/rustdesk</a></p><div class="note default orange simple"><p>局域网网盘alist</p></div><p>在linux发行版搭建服务器,挂载各大网盘或者本地文件,有好看的ui<br><a href="https://github.com/alist-org/alist">https://github.com/alist-org/alist</a></p><div class="note default orange simple"><p>洛雪</p></div><div class="note default orange simple"><p>懂得都懂</p></div><p><a href="https://github.com/lyswhut/lx-music-desktop">https://github.com/lyswhut/lx-music-desktop</a></p><div class="note default orange simple"><p>其他软件</p></div><div class="note default orange simple"><p>卡饭输入法</p></div><p><a href="https://input.kfsafe.cn/">https://input.kfsafe.cn/</a></p><div class="note default orange simple"><p>Obsidian(markdown笔记)</p></div><p>这个软件一直在更新就不放链接了<br><a href="https://obsidian.md/">https://obsidian.md/</a></p><div class="note default orange simple"><p>获取软件下载地址(蓝奏云)</p></div><p>windterm<br><a href="https://dddachui.lanzouy.com/iDzcV0a4znoh">https://dddachui.lanzouy.com/iDzcV0a4znoh</a><br>massCode<br><a href="https://dddachui.lanzouy.com/iwAFI0a50h0d">https://dddachui.lanzouy.com/iwAFI0a50h0d</a><br>rustdesk<br><a href="https://dddachui.lanzouy.com/ii2TA0a50htc">https://dddachui.lanzouy.com/ii2TA0a50htc</a><br>alist<br><a href="https://dddachui.lanzouy.com/iF7pT0a506kh">https://dddachui.lanzouy.com/iF7pT0a506kh</a><br><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/siMAqL1Zewz3QlJ.webp" alt=""></p>]]></content>
+    
+    
+    <summary type="html">好用的软件</summary>
+    
+    
+    
+    <category term="运维" scheme="https://www.linjiangyu.com/categories/%E8%BF%90%E7%BB%B4/"/>
+    
+    
+    <category term="Linux" scheme="https://www.linjiangyu.com/tags/Linux/"/>
     
   </entry>
   
