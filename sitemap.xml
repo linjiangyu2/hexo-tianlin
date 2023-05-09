@@ -628,13 +628,6 @@
   </url>
   
   <url>
-    <loc>https://www.linjiangyu.com/tags/AI/</loc>
-    <lastmod>2023-05-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.linjiangyu.com/tags/Linux/</loc>
     <lastmod>2023-05-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -657,6 +650,13 @@
   
   <url>
     <loc>https://www.linjiangyu.com/tags/butterfly/</loc>
+    <lastmod>2023-05-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.linjiangyu.com/tags/AI/</loc>
     <lastmod>2023-05-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
