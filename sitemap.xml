@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.linjiangyu.com/posts/ba51ac6f.html</loc>
+    
+    <lastmod>2023-05-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.linjiangyu.com/social/link/index.html</loc>
     
     <lastmod>2023-05-09</lastmod>
@@ -23,15 +32,6 @@
     <loc>https://www.linjiangyu.com/site/time/index.html</loc>
     
     <lastmod>2023-05-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.linjiangyu.com/posts/ba51ac6f.html</loc>
-    
-    <lastmod>2023-05-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
