@@ -200,15 +200,6 @@
   </url>
   
   <url>
-    <loc>https://www.linjiangyu.com/posts/6f3762be.html</loc>
-    
-    <lastmod>2023-03-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.linjiangyu.com/posts/f2af38d6.html</loc>
     
     <lastmod>2023-03-12</lastmod>
@@ -218,7 +209,7 @@
   </url>
   
   <url>
-    <loc>https://www.linjiangyu.com/posts/371a3fb1.html</loc>
+    <loc>https://www.linjiangyu.com/posts/6f3762be.html</loc>
     
     <lastmod>2023-03-12</lastmod>
     
@@ -228,6 +219,15 @@
   
   <url>
     <loc>https://www.linjiangyu.com/posts/2388a20a.html</loc>
+    
+    <lastmod>2023-03-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.linjiangyu.com/posts/371a3fb1.html</loc>
     
     <lastmod>2023-03-12</lastmod>
     
@@ -628,13 +628,6 @@
   </url>
   
   <url>
-    <loc>https://www.linjiangyu.com/tags/AI/</loc>
-    <lastmod>2023-05-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.linjiangyu.com/tags/Linux/</loc>
     <lastmod>2023-05-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -643,6 +636,13 @@
   
   <url>
     <loc>https://www.linjiangyu.com/tags/redis/</loc>
+    <lastmod>2023-05-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.linjiangyu.com/tags/AI/</loc>
     <lastmod>2023-05-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
