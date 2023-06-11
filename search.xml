@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>LB常用调度算法</title>
+      <link href="/posts/ed485414.html"/>
+      <url>/posts/ed485414.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="LB常用调度算法">LB常用调度算法</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span><span class="string">)</span> <span class="string">轮询:</span> <span class="string">RR（Round</span> <span class="string">Robin）</span></span><br><span class="line"><span class="string">最基本的调度算法，把请求连接依次轮流分配到RS机器，缺点是如果机器性能不一致便会导致资源浪费</span></span><br><span class="line"></span><br><span class="line"><span class="number">2</span><span class="string">)</span> <span class="string">加权轮询:</span> <span class="string">WRR（Weighted</span> <span class="string">Round</span> <span class="string">Robin）</span></span><br><span class="line"><span class="string">在RR的基础上添加了设置机器权重，按照权重比例调度请求</span></span><br><span class="line"></span><br><span class="line"><span class="number">3</span><span class="string">)</span> <span class="string">源地址哈希:</span> <span class="string">SH</span> <span class="string">（Source</span> <span class="string">Hash）</span></span><br><span class="line"><span class="string">将请求的客户端IP地址进行Hash计算并调度，后面此IP地址发出的请求便会被永久的调度到同一台RS机器上</span></span><br><span class="line"></span><br><span class="line"><span class="number">4</span><span class="string">)</span> <span class="string">目标地址哈希:</span> <span class="string">DH</span> <span class="string">(Destination</span> <span class="string">Hash)</span></span><br><span class="line"><span class="string">通过一个散列函数将来自同一个源IP的请求地址映射到一台服务器或链路上</span></span><br><span class="line"></span><br><span class="line"><span class="number">5</span><span class="string">)</span> <span class="string">最少连接数:</span> <span class="string">LC（Least</span> <span class="string">Connection）</span></span><br><span class="line"><span class="string">根据当前各服务器的连接数来估计服务器的负载情况，把新的连接分配给连接数最小的服务器；负载率=active*256+inactive，值小的优先分配请求</span></span><br><span class="line"></span><br><span class="line"><span class="number">6</span><span class="string">）加权最少连接数:</span> <span class="string">WLC（Weighted</span> <span class="string">Least</span> <span class="string">Connection）</span></span><br><span class="line"><span class="string">与LC类似，根据当前各服务器的连接数来估计服务器的负载情况，把新的连接分配给连接数最小的服务器；负载率=(active*256+inactive)/weight，值小的优先分配请求</span></span><br><span class="line"></span><br><span class="line"><span class="number">7</span><span class="string">）最短期望延迟:</span> <span class="string">SED（Shortest</span> <span class="string">Expect</span> <span class="string">Delay）</span></span><br><span class="line"><span class="string">这个算法主要是优化LC的，在服务均在请求少的时候避免负载到一台服务器上做的优化；负载率=(active+1)*256/weight，值小的优先分配请求</span></span><br><span class="line"></span><br><span class="line"><span class="number">8</span><span class="string">)</span> <span class="string">永不排队:</span> <span class="string">NQ</span> <span class="string">（Nerver</span> <span class="string">Queue）</span></span><br><span class="line"><span class="string">在负载低时，请求直接分配到空闲服务器上，不会产生请求等待；当服务器都很忙时，将轮询</span></span><br><span class="line"></span><br><span class="line"><span class="number">9</span><span class="string">)</span> <span class="string">基于本地最少连接:</span> <span class="string">LBLC（Locality-Based</span> <span class="string">Least</span> <span class="string">Connection）</span></span><br><span class="line"><span class="string">根据请求的目标IP地址找出该目标IP地址最近使用的RealServer，若该Real</span> <span class="string">Server是可用的且没有超载，将请求发送到该服务器；若服务器不存在，或者该服务器超载且有服务器处于一半的工作负载，则用“最少链接”的原则选出一个可用的服务器，将请求发送到该服务器</span></span><br></pre></td></tr></table></figure><p><img src="https://cdn1.tianli0.top/gh/linjiangyu2/halo/img/siMAqL1Zewz3QlJ.webp" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 演示 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 服务 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SD使用和Lora模型训练</title>
       <link href="/posts/ba51ac6f.html"/>
       <url>/posts/ba51ac6f.html</url>
